@@ -19,10 +19,8 @@ while True:
     output = 'Not Found'
     a = str(input('word - '))
     low = a.lower()
-
     if a == 'stop':
         break
-
     if low in eword:
         i = eword.index(low)
         output = gword[i]
